@@ -6,6 +6,8 @@ export default defineConfig({
   plugins: [react()],
   const env = loadEnv(mode, process.cwd(), '');
   const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+  console.log("env:", env);
+  console.log("apiKey: ", apiKey);
 
   // IMPORTANT: must match GitHub repo name exactly
   base: '/Stealth-Copilot/',
