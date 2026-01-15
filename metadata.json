@@ -1,0 +1,12 @@
+{
+  "name": "Stealth Copilot AI",
+  "short_name": "Copilot",
+  "description": "Desktop-optimized real-time interview assistant with auto-category detection.",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#050505",
+  "background_color": "#050505",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
