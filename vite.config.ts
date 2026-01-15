@@ -2,12 +2,13 @@ import path from 'path';
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-export default defineConfig({
-  plugins: [react()],
   const env = loadEnv(mode, process.cwd(), '');
   const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
   console.log("env:", env);
   console.log("apiKey: ", apiKey);
+  
+export default defineConfig({
+  plugins: [react()],
 
   // IMPORTANT: must match GitHub repo name exactly
   base: '/Stealth-Copilot/',
